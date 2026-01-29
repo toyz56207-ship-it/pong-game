@@ -116,7 +116,7 @@
     if (keys["s"] && leftPaddle.y + paddleHeight < canvas.height) leftPaddle.y += leftPaddle.speed;
 
     // AI
-    rightPaddle.y += (ball.y - (rightPaddle.y + paddleHeight / 2)) * 0.1;
+    rightPaddle.y += (ball.y - (rightPaddle.y + paddleHeight / 2)) * 0.4;
 
     // Ball
     ball.x += ball.speedX;
@@ -182,4 +182,5 @@
 
 </body>
 </html>
+
 
